@@ -1,0 +1,79 @@
+<html>
+  <head>
+    <style>
+      .navBox {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+      }
+
+      .navBox div {
+        margin-left: 25px;
+        margin-right: 25px;
+      }
+
+      .box {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+
+      .box div {
+        border: solid 3px cornflowerblue;
+        margin: 10px;
+        padding: 10px;
+        width: 500px;
+      }
+    </style>
+  </head>
+
+  <body align="center">
+    <div class="navBox">
+      <div>
+        <h1 style="font-family: verdana; color: cornflowerblue">
+          MARQUEE TAGS & ITS APPLICATIONS
+        </h1>
+      </div>
+      <div>
+        <a
+          href="./home.html"
+          style="color: orangered; text-decoration: none; font-family: verdana"
+          ><h1>HOME PAGE</h1></a
+        >
+      </div>
+    </div>
+    <hr />
+    <div class="box">
+      <div>
+        <h2>MARQUEE USED TO MOVE TEXT</h2>
+        <marquee direction="left" scrolldelay="100" scrollamount="10" loop="">
+          <p style="font-size: xx-large; text-align: center">
+            Modern Web Tech Stack <br />
+            HTML 5 | CSS 3 | JavaScript
+          </p>
+        </marquee>
+      </div>
+
+      <div>
+        <h2>MARQUEE USED TO MOVE AN IMAGE</h2>
+        <marquee
+          direction="left"
+          scrollamount="10"
+          scrolldelay="100"
+          loop=""
+          vspace="10"
+        >
+          <img src="./htmlLogo.png" height="200" />
+        </marquee>
+      </div>
+      <div style="width: 1050;">
+        <h2>MARQUEE USED TO MOVE HYPERLINK</h2>
+        <marquee direction="left" scrollamount="10" scrolldelay="100" loop="">
+          <a href="./home.html">
+            <h2>THIS IS A HYPERLINK IN A MARQUEE TAG.</h2>
+          </a>
+        </marquee>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,108 @@
+<html>
+  <head>
+    <style>
+      .navBox {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+      }
+
+      .navBox div {
+        margin-left: 25px;
+        margin-right: 25px;
+      }
+
+      .box {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+
+      .box div {
+        border: solid 3px cornflowerblue;
+        margin: 10px;
+        padding: 10px;
+        width: 500px;
+      }
+    </style>
+  </head>
+  <body align="center">
+    <div class="navBox">
+      <div>
+        <h1 style="font-family: verdana; color: cornflowerblue">
+          OTHER TAGS [BR, HR, PRE, P]
+        </h1>
+      </div>
+      <div>
+        <a
+          href="./home.html"
+          style="color: orangered; text-decoration: none; font-family: verdana"
+          ><h1>HOME PAGE</h1></a
+        >
+      </div>
+    </div>
+    <hr />
+
+    <div class="box">
+      <div style="width: 1050px;">
+        <h2>The br tag is used to force line breaks in a text.</h2>
+        <p>
+          “Life is like a game of cards. The hand you are dealt is determinism;
+          the way you play it is free will.”
+        </p>
+        <p><em>– Jawaharlal Nehru</em></p>
+      </div>
+
+      <div style="width: 1050px; display: flex;">
+        <div style="border: none;">
+          <h2 style="max-width: 300px; display: inline-block">
+            The hr tag is used to define a thematic break in an HTML page. The hr
+            element is most often displayed as a horizontal rule that is used to
+            separate content (or define a change) in an HTML page.
+          </h2>
+        </div>
+        <div style="width: 900px; display: inline-block; border: none;">
+          <p>
+            HTML is the standard markup language for creating Web pages. HTML
+            describes the structure of a Web page, and consists of a series of
+            elements. HTML elements tell the browser how to display the content.
+          </p>
+          <hr />
+          <p>
+            CSS is a language that describes how HTML elements are to be displayed
+            on screen,paper, or in other media. CSS saves a lot of work, because
+            it can control the layout of multiple web pages all at once.
+          </p>
+          <hr />
+          <p>
+            JavaScript is the programming language of HTML and the Web.JavaScript
+            can change HTML content and attribute values. JavaScript can change
+            CSS. JavaScript can hide and show HTML elements, and more.
+          </p>
+        </div>
+      </div>
+
+      <div>
+        <h2>The pre tag defines preformatted text.</h2>
+        <pre>
+      Text in a pre element is
+      displayed in a fixed-width
+      font, and it preserves
+      both spaces and
+      line breaks</pre
+        >
+      </div>
+
+      <div>
+        <h2>
+          The p tag defines a paragraph. Browsers automatically add a single
+          blank line before and after each p element.
+        </h2>
+        <p>
+          This paragraph contains a lot of lines in the source code, but the
+          browser ignores it.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
